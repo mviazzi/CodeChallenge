@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="script.js"></script>
 </head>
 <body>
     <form>
         <h3>Formulario</h3>
-        <input type="text">
+        <input type="text" id="nombre">
         <br>
-        <input>
+        <input type="text" id="apellido">
+        <br>
+        <input type="date" id="fechaNacimiento">
     </form>
-    <button class="button">Enviar</button>
+    <button class="button" id="botonn" onclick="enviar()">Enviar</button>
+
+    <div id="divi"></div>
 </body>
 </html>
